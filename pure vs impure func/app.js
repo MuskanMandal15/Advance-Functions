@@ -24,6 +24,9 @@ function addMoreNumbers(num1, num2) {
 }
 
 console.log(addMoreNumbers(1, 5));
+console.log(addMoreNumbers(10, 5));
+console.log(addMoreNumbers(20, 5));
+console.log(previousNumber);
 
 const hobbies = ["cooking", "playing"];
 

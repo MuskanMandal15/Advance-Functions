@@ -1,0 +1,1 @@
+recursive is that function that calls it self again and again, and by calling itself again and again it will go in infinite loop that's why we'll use condition so that that function can stop when that work finish

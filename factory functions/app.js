@@ -1,4 +1,5 @@
 function createTaxCalculator(tax) {
+  // debugger;
   function calculateTax(amount) {
     return tax * amount;
   }
@@ -13,14 +14,18 @@ console.log(calculateVatAmount(200));
 
 // closure and lexical scoping
 
-let person = "muskan";
+// let person = "harshita";
 
 function outer() {
-  // let person = "muskan";
   function inner() {
+    let person = "muskan";
     console.log("inner", person);
   }
+  function third() {
+    console.log("third", person);
+  }
   inner();
+  third();
 }
 person = "mandal";
 outer();
